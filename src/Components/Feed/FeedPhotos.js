@@ -1,6 +1,6 @@
 import React from 'react';
 import FeedPhotosItem from './FeedPhotosItem';
-import useFetch from '../../Hooks/useFech';
+import useFetch from '../../Hooks/useFetch';
 import { PHOTOS_GET } from '../../Api';
 import Error from '../Helper/Error';
 import Loading from '../Helper/Loading';
