@@ -1,6 +1,6 @@
 import React from 'react';
 
-const useFech = () => {
+const useFetch = () => {
   const [data, setData] = React.useState(null);
   const [error, setError] = React.useState(null);
   const [loading, setLoading] = React.useState(false);
@@ -32,4 +32,4 @@ const useFech = () => {
   };
 };
 
-export default useFech;
+export default useFetch;
